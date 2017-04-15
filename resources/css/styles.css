@@ -1,0 +1,269 @@
+/*-----------------------------------------------------------*/
+/*DEFAULT SETUP*/
+/*-----------------------------------------------------------*/
+/*default color #1abc9c*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    color:#000;
+    background-color:#fff;
+}
+
+body {
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+h2 {
+    border-bottom: 3px solid #16a085;
+    padding: 20px;
+    margin-bottom: 60px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+/*generic links*/
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*-----------------------------------------------------------*/
+
+
+.icon-small:link,
+.icon-small:visited {
+    color: #1abc9c;
+    font-size:120%;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.icon-small:hover,
+.icon-small:active {
+    color: #16a085;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*HEADING*/
+/*-----------------------------------------------------------*/
+
+header {
+    height:100vh;
+    width:auto;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/barnimages_-13.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/barnimages_-13.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    
+}
+
+.text-box {
+    position: absolute;
+    width:450px;
+    top:50%; 
+    left:50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 120%;
+    font-weight: 300;
+}
+
+.text-box h1,h3 {
+    text-align: left;
+} 
+
+.text-box span {
+    padding: 3px;
+    color: #1ac4a3;
+    background-color: #fff;
+}
+
+
+/*NAVIGATION MENU*/
+
+nav ul {
+    float:right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color:#fff;
+    transition: border-bottom 0.2s;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 3px solid #16a085;
+    
+}
+
+
+
+.git-icon-header .icon-small:link,
+.git-icon-header .icon-small:visited {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+
+
+
+/*-----------------------------------------------------------*/
+/*PROJECTS*/
+/*-----------------------------------------------------------*/
+
+.projects {
+    margin-top: 0;
+    background-color: #d6d6d6;
+    color: #000;
+}
+
+.projects h2 {
+
+}
+
+.project-box {
+    text-align: center;
+    border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px #b1b1b1;
+    background-color: #fff;
+}
+
+.project-image {
+    background-color: #000;
+}
+
+.project-image img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-icons {
+    padding-bottom: 15px;
+}
+
+.project-icons i {
+    font-size: 120%;
+    padding: 15px;
+    color: #1abc9c;
+}
+
+.project-title {
+    padding: 15px;
+    font-size: 120%;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*CONTACT*/
+/*-----------------------------------------------------------*/
+
+
+.contact {
+    margin-top: 0;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+/*<img class="miko-img" src="resources/css/img/miko.jpg" alt="Image of Miko">*/
+.miko-img {
+    display:inline-block;
+    height: 45px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=submit] {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 120%;
+    width: auto;
+    border-radius: 200px;
+    background-color: #1abc9c; 
+    border: 1px solid #1abc9c;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    color: #fff;
+}
+
+
+footer {
+    font-size: 90%;
+    padding: 20px;
+    background-color: #d6d6d6;
+}
+
+footer .row {
+    position: relative;
+    text-align: center;
+}

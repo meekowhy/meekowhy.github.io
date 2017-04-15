@@ -1,10 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+
     <title>Miko - portfolio</title>
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!--HEADER-->
+    <header id = "header">
+        <nav>
+            <ul>
+                <li class="1"><a href="#header">home</a></li> 
+                <li class="2"><a href="#projects">projects</a></li>
+                <li class="3"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1>Hello, my name is Miko,</h1>
+            <h3>soon to be full stack <span>web developer :-)</span></h3>
+        </div>
+        <div class="git-icon-header">
+            <a class="icon-small" target="_blank" href="https://github.com/meekowhy"><i class="ion-social-github"></i></a>
+        </div>
+    </header>
+    <!--PROJECTS-->
+    <section class="projects" id="projects">
+        <div class="row">
+            <h2>Projects</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 project-box">
+                <div class="project-image">
+                    <img src="resources/css/img/tictactoe.jpg" alt="tictactoe game">
+
+                </div>
+                <div class="project-title">
+                    To jest tytul projektu
+                </div>
+                <div class="project-icons">
+                    <i class="ion-social-html5"></i>
+                    <i class="ion-social-css3"></i>
+                    <i class="ion-social-javascript"></i>
+                </div>
+
+
+            </div>
+            <div class="col span-1-of-3 project-box">
+                <div class="project-image">
+                    <img src="resources/css/img/Untitled.jpg" alt="tictactoe game">
+                </div>
+                <div class="project-title">
+                    To jest tytul projektu
+                </div>
+                <div class="project-icons">
+                    <i class="ion-social-html5"></i>
+                    <i class="ion-social-css3"></i>
+                    <i class="ion-social-javascript"></i>
+                </div>
+            </div>
+            <div class="col span-1-of-3 project-box">
+                <div class="project-image">
+                    <img src="resources/css/img/Untitled.jpg" alt="tictactoe game">
+                </div>
+                <div class="project-title">
+                    To jest tytul projektu
+                </div>
+                <div class="project-icons">
+                    <i class="ion-social-html5"></i>
+                    <i class="ion-social-css3"></i>
+                    <i class="ion-social-javascript"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!--CONTACT-->
+    <section class="contact" id="contact">
+        <div class="row">
+
+            <h2>Contact </h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">message</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" id="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3"><label>&nbsp;</label></div>
+                    <div class="col span-2-of-3">
+                    <input type="submit" value="Send it!" class="btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+       <div class="row">
+              <p>Made by Miko <a class="icon-small" target="_blank" href="https://github.com/meekowhy"><i class="ion-social-github"></i></a> Shenzhen, 2017</p>
+              
+               
+               
+       </div>
+        
+    </footer>
+
+
 </body>
+
 </html>
