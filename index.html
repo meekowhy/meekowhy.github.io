@@ -6,29 +6,32 @@
     <meta charset="UTF-8">
 
     <title>Miko - portfolio</title>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i" rel="stylesheet">
 </head>
 
 <body>
     <!--HEADER-->
-    <header id = "header">
+    <header id="header">
         <nav>
-            <ul>
-                <li class="1"><a href="#header">home</a></li> 
+            <a class="icon-git icon-small" target="_blank" href="https://github.com/meekowhy"><i class="ion-social-github"></i></a>
+            <ul class="nav-main">
+                <li class="1"><a href="#header">home</a></li>
                 <li class="2"><a href="#projects">projects</a></li>
                 <li class="3"><a href="#contact">contact</a></li>
             </ul>
+            <a class="hamburger js--hamburger"><i class="ion-navicon-round"></i></a>
         </nav>
         <div class="text-box">
             <h1>Hello, my name is Miko,</h1>
-            <h3>soon to be full stack <span>web developer :-)</span></h3>
+            <h3>soon to be full stack <span class="testujemy">web developer :-)</span></h3>
         </div>
-        <div class="git-icon-header">
-            <a class="icon-small" target="_blank" href="https://github.com/meekowhy"><i class="ion-social-github"></i></a>
-        </div>
+
     </header>
     <!--PROJECTS-->
     <section class="projects" id="projects">
@@ -117,7 +120,7 @@
                 <div class="row">
                     <div class="col span-1-of-3"><label>&nbsp;</label></div>
                     <div class="col span-2-of-3">
-                    <input type="submit" value="Send it!" class="btn">
+                        <input type="submit" value="Send it!" class="btn">
                     </div>
                 </div>
             </form>
@@ -125,16 +128,19 @@
 
     </section>
     <footer>
-       <div class="row">
-              <p>Made by Miko <a class="icon-small" target="_blank" href="https://github.com/meekowhy"><i class="ion-social-github"></i></a> Shenzhen, 2017</p>
-              
-               
-               
-       </div>
-        
+       
+        <div class="row">
+           
+            <p>Made by Miko <img id="miko" src="resources/css/img/miko.jpg" alt="">  Shenzhen, 2017</p>
+
+
+
+        </div>
+
     </footer>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 
 </html>

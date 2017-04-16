@@ -1,0 +1,35 @@
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+    .text-box {
+        width: 410px;
+    }
+    
+    .hamburger {
+        display: inline-block;
+    }
+    
+    .nav-main {
+        display: none;
+        float: left;
+    }
+    
+    .nav-main li {
+        display: block;
+        margin-left:10px;
+        padding-bottom: 5px;
+    }
+    
+    .icon-git i {
+        display: block;
+    }
+    
+    .nav-main li a:link,
+    .nav-main li a:visited {
+        display: block;
+        font-size: 100%;
+    }
+    
+    
+  
